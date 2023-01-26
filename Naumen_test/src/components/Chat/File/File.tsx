@@ -10,8 +10,17 @@ const File = observer(() => {
     <div className={classes.container}>
       {messages.checkSizeOfFile ? (
         <>
-          <a className={classes.fileName} href="">{messages.inputFile.name}</a>
-          <Button style={classes.buttonDelete} do={messages.deleteFile} svg={CloseIcon}/>
+          <a className={classes.fileName} href="">
+            {messages.inputFile.name +
+              " " +
+              Math.round(messages.inputFile.size / 1024 *100)/100 +
+              "КБ"}
+          </a>
+          <Button
+            style={classes.buttonDelete}
+            do={messages.deleteFile}
+            svg={CloseIcon}
+          />
         </>
       ) : (
         <p className={classes.error}>Допустимый размер файла: не больше 1 МБ</p>

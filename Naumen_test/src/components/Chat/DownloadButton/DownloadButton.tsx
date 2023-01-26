@@ -11,7 +11,7 @@ const DownloadButton = observer(() => {
         className={classes.file}
         type='file'
         accept='image/*, .pdf, .doc, .docx'
-        onChange={messages.setFile}
+        onChange={(e)=>messages.setFile(e.target.files)}
         value={''}
       ></input>
       <File fill='#59677D' width="18"/>

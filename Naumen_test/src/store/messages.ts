@@ -146,9 +146,9 @@ class Messages {
     }
   };
 
-  setFile = (e: any) => {
-    if (e.target.files) {
-      this.inputFile = e.target.files[0];
+  setFile = (file: FileList) => {
+    if (file) {
+      this.inputFile = file[0];
       if (this.checkSizeOfFile) {
         this.inputMessage = "";
       }
@@ -170,7 +170,7 @@ class Messages {
   }
 
   get checkSizeOfFile() {
-    return this.inputFile.size < 1048576;
+    return this.inputFile.size <= 1048576;
   }
 
   get countOfPageGroupChat() {

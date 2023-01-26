@@ -25,12 +25,14 @@ const Messages = observer(() => {
   useEffect(() => {
     setNeedUpdate(false);
     setCurrentPage(1);
+    let scrollingDiv = document.getElementById('scroll')
+    scrollingDiv.scrollTo({top:scrollingDiv.scrollHeight});
   }, [messages.currGroup]);
 
-  function onScrollList(event: any) {
+  function onScrollList(event: React.UIEvent<HTMLDivElement>) {
     const scrollTop =
-      event.target.offsetHeight - event.target.scrollTop ===
-      event.target.scrollHeight;
+      event.currentTarget.offsetHeight - event.currentTarget.scrollTop ===
+      event.currentTarget.scrollHeight;
     if (scrollTop) {
       setNeedUpdate(true);
     }
@@ -38,6 +40,7 @@ const Messages = observer(() => {
 
   return (
     <div
+      id="scroll"
       className={classes.messages}
       onScroll={(event) =>
         currentPage !== messages.countOfPageGroupChat && onScrollList(event)

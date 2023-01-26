@@ -16,6 +16,7 @@ interface LiProps {
 }
 
 const SideBarLi = observer((props: LiProps) => {
+  let colorOfIcon = props.pageProps.currPage === props.page ? "#1F70F6" : "#A4B4C9";
   let visible = messages.unreadMessagesChats;
   return (
     <li
@@ -25,28 +26,14 @@ const SideBarLi = observer((props: LiProps) => {
       )}
       onClick={() => props.pageProps.changePage(props.page)}
     >
-      {props.page === "Timetable" && (
-        <IconTimetable
-          fill={props.pageProps.currPage === props.page ? "#1F70F6" : "#A4B4C9"}
-        />
-      )}
-      {props.page === "Journal" && (
-        <IconeElectronicJournal
-          fill={props.pageProps.currPage === props.page ? "#1F70F6" : "#A4B4C9"}
-        />
-      )}
-      {props.page === "Chat" && (
-        <IconChat
-          fill={props.pageProps.currPage === props.page ? "#1F70F6" : "#A4B4C9"}
-        />
-      )}
-      {props.page === "Settings" && (
-        <IconSettings
-          fill={props.pageProps.currPage === props.page ? "#1F70F6" : "#A4B4C9"}
-        />
-      )}
+      {props.page === "Timetable" && <IconTimetable fill={colorOfIcon} />}
+      {props.page === "Journal" && <IconeElectronicJournal fill={colorOfIcon} />}
+      {props.page === "Chat" && <IconChat fill={colorOfIcon} />}
+      {props.page === "Settings" && <IconSettings fill={colorOfIcon} />}
       <span className={classes.span}>{PagesNames[props.page]}</span>
-      <div className={props.page === "Chat" && visible && classes.circle || ''} />
+      <div
+        className={(props.page === "Chat" && visible && classes.circle) || ""}
+      />
     </li>
   );
 });

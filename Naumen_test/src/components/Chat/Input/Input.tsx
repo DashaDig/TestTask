@@ -3,13 +3,20 @@ import { observer } from "mobx-react-lite";
 import messages from "../../../store/messages";
 import classes from "./Input.module.scss";
 import clsx from "clsx";
+import { useEffect } from "react";
 
 const Input = observer(() => {
-  const Send = (e: React.KeyboardEvent<HTMLInputElement>) => {
+  const keydownHandler = (e:KeyboardEvent) => {
     if (e.key === "Enter" && e.ctrlKey) {
       messages.sendMessage();
     }
   };
+  useEffect(()=>{
+    document.addEventListener('keydown', keydownHandler);
+    return ()=>{
+      document.removeEventListener('keydown', keydownHandler);
+    }
+  },[])
 
   return (
     <label className={classes.labelText}>
@@ -22,7 +29,6 @@ const Input = observer(() => {
         placeholder={"Написать сообщение..."}
         value={messages.inputMessage}
         onChange={(e) => messages.setInputMessage(e.target.value)}
-        onKeyDown={(e) => Send(e)}
         disabled={messages.inputFile && messages.checkSizeOfFile}
       ></input>
     </label>
