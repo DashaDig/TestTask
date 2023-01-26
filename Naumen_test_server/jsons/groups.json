@@ -1,0 +1,18 @@
+{
+  "code": "OK",
+  "data": {
+    "chatUserId": 1,
+    "userId": 1,
+    "chatGroupsInfo": [
+      {
+        "groupId": 1,
+        "groupTitle": "ЖЖЖЖ-23001"
+
+      },
+      {
+        "groupId": 2,
+        "groupTitle": "ПЕКА-20053"
+      }
+    ]
+  }
+}

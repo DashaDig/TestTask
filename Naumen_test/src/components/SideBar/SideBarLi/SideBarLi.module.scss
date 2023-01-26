@@ -1,0 +1,32 @@
+.li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-width: 18px;
+  padding: 24px 0;
+  border-bottom: 1px solid #d7e1ef;
+  cursor: pointer;
+}
+
+.li:hover,
+.activePage {
+  color: #0054de;
+}
+
+.li:last-child {
+  border: 0;
+}
+
+.span {
+  font-size: 15px;
+  margin-left: 14px;
+  letter-spacing: -0.01em;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #ed5249;
+  margin-left: 4px;
+}

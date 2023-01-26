@@ -1,0 +1,56 @@
+{
+  "code": "OK",
+  "data": {
+    "numberOfParticipants": 17,
+    "messages": [
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Петр",
+          "lastName": "Петров",
+          "userId": 3
+        }
+      },
+      {
+        "text": "Как дела!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Супер",
+        "userInfo": {
+          "firstName": "Петр",
+          "lastName": "Петров",
+          "userId": 3
+        }
+      },
+      {
+        "text": "А у вас!",
+        "userInfo": {
+          "firstName": "Петр",
+          "lastName": "Петров",
+          "userId": 3 
+        }
+      },
+      {
+        "text": "Не очень!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      }
+    ]
+  }
+}

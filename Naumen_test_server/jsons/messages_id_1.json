@@ -1,0 +1,680 @@
+{
+  "code": "OK",
+  "data": {
+    "numberOfParticipants": 17,
+    "messages": [
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Как дела!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Нормально",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "А у вас!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Все хорошо. Спасибо",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Передавайте привет",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "file": {
+          "fileName": "Открытка",
+          "apiUrl": "путь/к/файлу"
+        },
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Как дела!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Нормально",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "А у вас!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Все хорошо. Спасибо",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Передавайте привет",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "file": {
+          "fileName": "Открытка",
+          "apiUrl": "путь/к/файлу"
+        },
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Как дела!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Нормально",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "А у вас!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Все хорошо. Спасибо",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Передавайте привет",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "file": {
+          "fileName": "Открытка",
+          "apiUrl": "путь/к/файлу"
+        },
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Как дела!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Нормально",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "А у вас!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Все хорошо. Спасибо",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Передавайте привет",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "file": {
+          "fileName": "Открытка",
+          "apiUrl": "путь/к/файлу"
+        },
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Как дела!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Нормально",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "А у вас!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Все хорошо. Спасибо",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Передавайте привет",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "file": {
+          "fileName": "Открытка",
+          "apiUrl": "путь/к/файлу"
+        },
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Как дела!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Нормально",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "А у вас!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Все хорошо. Спасибо",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Передавайте привет",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "file": {
+          "fileName": "Открытка",
+          "apiUrl": "путь/к/файлу"
+        },
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Как дела!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Нормально",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "А у вас!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Все хорошо. Спасибо",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Передавайте привет",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "file": {
+          "fileName": "Открытка",
+          "apiUrl": "путь/к/файлу"
+        },
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Как дела!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Нормально",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "А у вас!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Все хорошо. Спасибо",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Передавайте привет",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "file": {
+          "fileName": "Открытка",
+          "apiUrl": "путь/к/файлу"
+        },
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый день!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      },
+      {
+        "text": "Добрый!",
+        "userInfo": {
+          "firstName": "Иван",
+          "lastName": "Иванов",
+          "userId": 2
+        }
+      },
+      {
+        "text": "Как дела!",
+        "userInfo": {
+          "firstName": "Админ",
+          "lastName": "Администраторов",
+          "userId": 1
+        }
+      }
+    ]
+  }
+}

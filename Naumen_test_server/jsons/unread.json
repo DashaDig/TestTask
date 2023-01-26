@@ -1,0 +1,14 @@
+{
+  "code": "OK",
+  "data": [
+    {
+      "groupId": 1,
+      "unreadMessages": 7
+    },
+    {
+      "groupId": 2,
+      "unreadMessages": 4
+    }
+  ]
+}
+
