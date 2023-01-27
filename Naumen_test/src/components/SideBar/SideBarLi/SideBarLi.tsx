@@ -9,6 +9,7 @@ import IconTimetable from "../../../images/iconTimetable.svg";
 import IconChat from "../../../images/iconChat.svg";
 import IconeElectronicJournal from "../../../images/iconElectronicJournal.svg";
 import IconSettings from "../../../images/iconSettings.svg";
+import UnreadPoint from "../../UnreadPoint/UnreadPoint";
 
 interface LiProps {
   pageProps: { currPage: string; changePage: (x: string) => void };
@@ -31,9 +32,7 @@ const SideBarLi = observer((props: LiProps) => {
       {props.page === "Chat" && <IconChat fill={colorOfIcon} />}
       {props.page === "Settings" && <IconSettings fill={colorOfIcon} />}
       <span className={classes.span}>{PagesNames[props.page]}</span>
-      <div
-        className={(props.page === "Chat" && visible && classes.circle) || ""}
-      />
+      {props.page === "Chat" && visible && <UnreadPoint/>}
     </li>
   );
 });

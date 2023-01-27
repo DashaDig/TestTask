@@ -1,7 +1,6 @@
 .message {
   display: flex;
   align-items: flex-end;
-  width: fit-content;
   margin: 8px 0;
 }
 
@@ -14,7 +13,6 @@
 
 .circle {
   display: flex;
-  flex: 0 0 auto;
   align-items: center;
   justify-content: center;
   width: 29px;
@@ -32,7 +30,6 @@
 }
 
 .Content {
-  width: fit-content;
   min-width: 344px;
   max-width: 78%;
   padding: 16px 25px 3px 16px;
@@ -49,6 +46,7 @@
 .text{
     font-size: 13px;
     margin-bottom: 6px ;
+    white-space: pre-line;
 }
 
 .file{

@@ -19,18 +19,18 @@ const Input = observer(() => {
   },[])
 
   return (
-    <label className={classes.labelText}>
-      <input
+    <label>
+      <textarea
         className={clsx(
           classes.text,
           messages.inputFile && messages.checkSizeOfFile && classes.textWhenFile
         )}
-        type="text"
         placeholder={"Написать сообщение..."}
         value={messages.inputMessage}
         onChange={(e) => messages.setInputMessage(e.target.value)}
+        autoFocus
         disabled={messages.inputFile && messages.checkSizeOfFile}
-      ></input>
+      ></textarea>
     </label>
   );
 });

@@ -3,6 +3,7 @@ import { observer } from "mobx-react-lite";
 import clsx from "clsx";
 import classes from "./Group.module.scss";
 import messages from "../../../../store/messages";
+import UnreadPoint from "../../../UnreadPoint/UnreadPoint";
 
 interface GroupContent {
   id: number;
@@ -30,7 +31,7 @@ const Group = observer((props: GroupContent) => {
       >
         {props.name}
       </span>
-      <div className={(thisUnread > 0 && classes.circle) || ""} />
+      {thisUnread > 0 && <UnreadPoint/>}
     </li>
   );
 });

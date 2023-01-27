@@ -1,27 +1,19 @@
 .li {
-    display: flex;
-    align-items: center;
-    padding: 24px 0 12px;
-    margin: 0 16px;
-    border-bottom: 1px solid #d7e1ef;
-    cursor: pointer;
-  }
-  
-  .li:hover .span, .activeGroup{
-    color:#0054DE;
-  }
-  
-  
-  .span {
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: -0.01em;
-  }
-  
-  .circle{
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    background-color: #ED5249;
-    margin-left: 4px;
-  }
+  display: flex;
+  align-items: center;
+  padding: 24px 0 12px;
+  margin: 0 0 0 16px;
+  border-bottom: 1px solid #d7e1ef;
+  cursor: pointer;
+}
+
+.li:hover .span,
+.activeGroup {
+  color: #0054de;
+}
+
+.span {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}

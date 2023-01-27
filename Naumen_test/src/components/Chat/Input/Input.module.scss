@@ -1,14 +1,17 @@
-.labelText {
-  flex: 1;
-}
+
 .text {
-  width: 100%;
+  
+  min-width: 571px;
+  max-width: 571px;
   height: 48px;
+  min-height: 48px;
+  max-height: 77px;
   border: 1px solid #d7e1ef;
   font-size: 15px;
-  padding-left: 16px;
+  padding: 10px 16px;
   box-sizing: border-box;
   outline: none;
+  font-family: "Montserrat";
 }
 
 .textWhenFile {
