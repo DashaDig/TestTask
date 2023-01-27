@@ -5,7 +5,14 @@
 
 .window {
   display: flex;
+  justify-content: space-between;
   background-color: white;
   width: 1216px;
   height: 752px;
+}
+
+@media (max-width: 1216px) {
+  .window {
+    width: 1024px;
+  }
 }

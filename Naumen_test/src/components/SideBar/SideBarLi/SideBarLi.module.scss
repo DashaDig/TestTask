@@ -20,3 +20,12 @@
   margin-left: 14px;
   letter-spacing: -0.01em;
 }
+
+@media (max-width: 1216px) {
+  .li {
+    justify-content: center;
+  }
+  .span {
+    display: none;
+  }
+}
